@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Portfólio Arthur Yukio Kikuchi</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/acordeon.css">
+    <link rel="stylesheet" href="assets/css/idioms.css">
+    <link rel="stylesheet" href="assets/css/projeto.css">
+    <link rel="stylesheet" href="assets/css/experience.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+        
+            <img src="/assets/img/yuk.jpg" alt="Foto do Arthur Yukio Kikuchi" class="photo">
+
+            <h1 class="title">
+                Olá, <br>eu sou Arthur Yukio Kikuchi
+            </h1>
+
+            <div class="info">
+                <p class="job">Junior Developer</p>
+                <p class="location">São Paulo - BR</p>
+                <p class="phone">
+                    <a href="tel: (+55) 13 98174-1283">(13) 98174-1283</a>
+                </p>
+                <p class="email"><a href="arthuryukiokikuchi@gmail.com">arthuryukiokikuchi@gmail.com</a>
+                </p>
+            </div>
+
+        </header>
+
+        <section class="acordeon">
+            <button class="trigger">
+                <h1>Idiomas</h1>
+            </button>
+
+            <div class="content">
+            <ul class="idioms">
+                <li>Português</li>
+                <li>Inglês - basico </li>
+            </ul>
+
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Projeto</h2>
+            </button>
+
+            <div class="content">
+                <ul class="projeto">
+                    <li>
+                        <span class="title github">Criando uma Pokedéx com API</span>
+                        <a href="https://github.com/YukioSinchini/PokedexApi.git"> link Pokedéx</a>
+                    </li>
+                    <li>
+                        <span class="title github">landpage</span>
+                        <a href="https://github.com/YukioSinchini/landpage.git">link landpage</a>
+                    </li>
+                    <li>
+                        <span class="title github">Coming soon...</span>
+                        <a href="">. . .</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h3>Experience</h3>
+            </button>
+
+            <div class="content">
+                <ul class="exp">
+                    <li>
+                        <span class="title">Game Jam</span>
+                        <span class="period">2022</span>
+                        <p>
+                            Game jam de 2 dias com tema livre, 10 grupos com 10 pessoas.
+
+                        </p>
+                    </li>
+                    <li>
+                        <span class="title">Hackathon</span>
+                        <span class="period">2022</span>
+                        <p>
+                            Hackathon de 3 dias para fazer tanto um jogo quanto um site divulgando o vestibulinho da Etec
+                        </p>
+                    </li>
+                    <li>
+                        <span class="title">Criação do mascote da Etec</span>
+                        <span class="period">2020</span>
+                        <p>
+                            Criação do mascote foi encarregado pela turma do Jogos Digitais, desenvolvido durante o decorrer do ano
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Ferramentas:</h3>
+                        <ul>
+                            <li>
+                                <img src="/assets/img/icons/tools/node2-svgrepo-com.svg">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/tools/css-3-logo-svgrepo-com.svg">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/tools/html-5-logo-svgrepo-com.svg">
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="personal">
+                        <h3>Pessoal:</h3>
+                        <ul>
+                            <li>Colaboração e trabalho em equipe</li>
+                            <li>Comunicação</li>
+                            <li>Flexibilidade e capacidade de se adaptar a mudanças</li>
+                            <li>Pensamento crítico</li>
+                            <li>Comprometimento</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <a href="https://www.dio.me/" target="_blank">
+                <img src="/assets/img/icons/dio.svg" alt="DIO">
+            </a>
+        </footer>
+
+     </main>
+
+    <script src="/assets/JS/acordon.js"></script>
+</body>
+</html>
